@@ -21,6 +21,11 @@ h1 {
 }
 
 
+h2 {
+    color: var(--primary-text-color);
+}
+
+
 .container-fluid {
     background-color: var(--header-background-color);
     flex-direction: column;
