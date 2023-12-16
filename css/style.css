@@ -1,0 +1,65 @@
+/* css reset - some browsers have margins */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Add variables for colours */
+:root {
+    --primary-text-color: #495D7B;
+    --header-background-color: #31343D;
+
+    --navbar-alink-text-color: #92CCCE;
+    --primary-background-color: #EEEEF7;
+    --complementing-color: #73FBFD;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.container-fluid {
+    background-color: var(--header-background-color);
+    flex-direction: column;
+}
+
+
+.container-arvi {
+    background-color: var(--complementing-color);
+    color: var(--primary-text-color);
+    width: 35%;
+    /* width of bright blue background color of my name*/
+}
+
+
+.navbar {
+    background-color: var(--header-background-color);
+    padding-top: 0px;
+}
+
+
+.nav-item a {
+    font-size: 17px;
+    color: var(--navbar-alink-text-color);
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+.nav-item a:hover {
+    /* Below are the colours for menu items when hover over on small screen */
+    background: white;
+    color: var(--complementing-color);
+}
+
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    color: white;    /* menu text color when resized down */
+}
+
+
+ 
