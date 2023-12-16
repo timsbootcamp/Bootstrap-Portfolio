@@ -16,6 +16,8 @@
 }
 
 
+
+
 h1 {
     text-align: center;
 }
@@ -105,10 +107,11 @@ h2 {
   }  */
 
 
-  .card {
+  /* .card {
     margin: 0 auto;
-    /* width: 100%; */
-} 
+    /* width: 100%; 
+}  */
+
 
 
   .cardContainer  {
@@ -119,3 +122,28 @@ h2 {
     width:60%;
     padding: 0;
 } */
+
+
+
+h2 {
+    margin: 30px 0px 0px 80px;
+}
+
+
+.cardContainer {
+    background-color: var(--primary-background-color);
+    padding: 2px;
+}
+
+
+.uuu {
+ border-style: none;
+ background-color:var(--primary-background-color);
+}
+
+.border-blue {
+    border: 2px solid var(--complementing-color);
+  }
+
+  
+  
