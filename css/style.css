@@ -57,9 +57,39 @@ h1 {
 
 
 #mainNav .navbar-toggler {
-    font-size: 12px;
-    color: white;    /* menu text color when resized down */
+    /* "Menu" text font size and color when resized down */
+    font-size: 18px;
+    color: white;
 }
 
 
- 
+.jumbotron {
+    color: var(--header-background-color);
+    text-align: center;
+}
+
+
+.jumbotron h1 {
+    font-size: 1.7rem;
+}
+
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+
+#jumbotron-text {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    left: 32%;
+    width: 25%;
+    top: 16%;
+    padding: 10px;
+}
+
+
+#jumotron-image {
+    padding: 0px;
+    width: 100%;
+}
