@@ -98,3 +98,24 @@ h2 {
     padding: 0px;
     width: 100%;
 }
+
+
+/* .cardContainer {
+    margin-bottom: 15px;
+  }  */
+
+
+  .card {
+    margin: 0 auto;
+    /* width: 100%; */
+} 
+
+
+  .cardContainer  {
+    padding: 0;
+  }
+
+  /* .card-image {
+    width:60%;
+    padding: 0;
+} */
