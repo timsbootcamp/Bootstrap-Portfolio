@@ -152,7 +152,13 @@ a, p {
 }
 
 
-h5:hover, a:hover {
+/* when hover over Email, Linked In and GitHub, it has hovered effect */
+a:hover {
     background-color: var(--complementing-color);
 }  
   
+
+/* when hover over button - it displays coloured box shadow */
+.btn-primary-hover-shadow:hover {
+    box-shadow: 0px 4px 8px var(--complementing-color); 
+}
