@@ -166,3 +166,14 @@ a:hover {
 .image-container:hover {
     border: 3px solid var(--complementing-color); /* Set the border color to yellow on hover */
   }
+
+
+  #about-me, #work, #skills, #contact-me {
+    padding: 100px 0px 0px 0px;
+    background-color: var(--primary-background-color);
+}
+
+
+.card-title {
+    color: var(--primary-text-color);
+}
