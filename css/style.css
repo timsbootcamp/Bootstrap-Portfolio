@@ -19,6 +19,7 @@
 
 h1 {
     text-align: center;
+    margin: 0px;
 }
 
 
@@ -30,6 +31,9 @@ h2 {
 .container-fluid {
     background-color: var(--header-background-color);
     flex-direction: column;
+
+        margin: 0px;
+        padding: 0px;
 }
 
 
@@ -69,36 +73,11 @@ h2 {
 }
 
 
-.jumbotron {
-    color: var(--header-background-color);
-    text-align: center;
-}
 
 
-.jumbotron h1 {
-    font-size: 1.7rem;
-}
 
 
-.jumbotron p {
-    font-size: 1.2rem;
-}
 
-
-#jumbotron-text {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    left: 32%;
-    width: 25%;
-    top: 16%;
-    padding: 10px;
-}
-
-
-#jumotron-image {
-    padding: 0px;
-    width: 100%;
-}
 
 
 /* .cardContainer {
@@ -194,4 +173,20 @@ footer p {
     color: var(--primary-text-color);;
     font-size: 13px;
 
+}
+
+
+
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%; */
+}
+
+
+
+.jumbotron {
+    background-color: #E3FCFD;
+    margin: 0px; 
 }
