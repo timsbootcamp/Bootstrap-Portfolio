@@ -17,7 +17,6 @@
 
 
 
-
 h1 {
     text-align: center;
 }
@@ -146,7 +145,7 @@ h2 {
   }
 
 
-a, p { 
+a  { 
     text-decoration: none;
     color: var(--primary-text-color);
 }
@@ -174,6 +173,25 @@ a:hover {
 }
 
 
-.card-title {
+/* .card-title {
     color: var(--primary-text-color);
+} */
+
+
+footer {
+    background: var(--primary-background-color);
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+.card-title, .card-text {
+    color: var(--primary-text-color)
+}
+
+
+footer p {
+    color: var(--primary-text-color);;
+    font-size: 13px;
+
 }
