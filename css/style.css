@@ -16,27 +16,70 @@
 }
 
 
-
+/* h1 element */
 h1 {
     text-align: center;
     margin: 0px;
 }
 
 
+/* h2 element */
 h2 {
+    color: var(--primary-text-color);
+    margin: 30px 0px 0px 80px;
+}
+
+
+/* Anchor element */
+a {
+    text-decoration: none;
     color: var(--primary-text-color);
 }
 
 
+/* anchor element - when hover over Email, Linked In and GitHub, it has hovered effect */
+a:hover {
+    background-color: var(--complementing-color);
+}
+
+
+/* footer element */
+footer {
+    background: var(--primary-background-color);
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+footer p {
+    color: var(--primary-text-color);
+    ;
+    font-size: 13px;
+}
+
+
+/* IDs */
+#about-me,
+#work,
+#skills,
+#contact-me {
+    padding: 100px 0px 0px 0px;
+    background-color: var(--primary-background-color);
+}
+
+
+/* Containers */
 .container-fluid {
     background-color: var(--header-background-color);
     flex-direction: column;
 
-        margin: 0px;
-        padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
+
+/* Container - with my name at top of page */
 .container-arvi {
     background-color: var(--complementing-color);
     color: var(--primary-text-color);
@@ -44,6 +87,14 @@ h2 {
     /* width of bright blue background color of my name*/
 }
 
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navigation Bar Related */
 
 .navbar {
     background-color: var(--header-background-color);
@@ -74,119 +125,34 @@ h2 {
 
 
 
-
-
-
-
-
-
-/* .cardContainer {
-    margin-bottom: 15px;
-  }  */
-
-
-  /* .card {
-    margin: 0 auto;
-    /* width: 100%; 
-}  */
-
-
-
-  .cardContainer  {
-    padding: 0;
-  }
-
-  /* .card-image {
-    width:60%;
-    padding: 0;
-} */
-
-
-
-h2 {
-    margin: 30px 0px 0px 80px;
+/* Jumbotron Related */
+.jumbotron {
+    background-color: #E3FCFD;
+    margin: 0px;
 }
 
 
+/* Card Related */
 .cardContainer {
     background-color: var(--primary-background-color);
     padding: 2px;
 }
 
 
-.uuu {
- border-style: none;
- background-color:var(--primary-background-color);
-}
-
-.border-blue {
-    border: 2px solid var(--complementing-color);
-  }
-
-
-a  { 
-    text-decoration: none;
-    color: var(--primary-text-color);
-}
-
-
-/* when hover over Email, Linked In and GitHub, it has hovered effect */
-a:hover {
-    background-color: var(--complementing-color);
-}  
-  
-
-/* when hover over button - it displays coloured box shadow */
-.btn-primary-hover-shadow:hover {
-    box-shadow: 0px 4px 8px var(--complementing-color); 
-}
-
-.image-container:hover {
-    border: 3px solid var(--complementing-color); /* Set the border color to yellow on hover */
-  }
-
-
-  #about-me, #work, #skills, #contact-me {
-    padding: 100px 0px 0px 0px;
+.card {
+    border-style: none; 
     background-color: var(--primary-background-color);
 }
 
 
-/* .card-title {
-    color: var(--primary-text-color);
-} */
 
-
-footer {
-    background: var(--primary-background-color);
-    text-align: center;
-    padding-left: 50px;
+/* when hover over button - it displays coloured box shadow */
+.btn-primary-hover-shadow:hover {
+    box-shadow: 0px 4px 8px var(--complementing-color);
 }
 
-
-.card-title, .card-text {
-    color: var(--primary-text-color)
+.image-container:hover {
+    border: 3px solid var(--complementing-color);
+    /* Set the border color to yellow on hover */
 }
 
-
-footer p {
-    color: var(--primary-text-color);;
-    font-size: 13px;
-
-}
-
-
-
-
-.container {
-    margin: 0px;
-    padding: 0px;
-    /* width: 100%; */
-}
-
-
-
-.jumbotron {
-    background-color: #E3FCFD;
-    margin: 0px; 
-}
