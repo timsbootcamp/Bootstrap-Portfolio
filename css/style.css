@@ -1,167 +1,146 @@
 /* css reset - some browsers have margins */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* Add variables for colours */
 :root {
-    --primary-text-color: #495D7B;
-    --header-background-color: #31343D;
+  --primary-text-color: #495d7b;
+  --header-background-color: #31343d;
 
-    --navbar-alink-text-color: #92CCCE;
-    --primary-background-color: #EEEEF7;
-    --complementing-color: #73FBFD;
+  --navbar-alink-text-color: #92ccce;
+  --primary-background-color: #eeeef7;
+  --complementing-color: #73fbfd;
 }
-
 
 /* h1 element */
 h1 {
-    text-align: center;
-    margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
-
 
 /* h2 element */
 h2 {
-    color: var(--primary-text-color);
-    margin: 30px 0px 0px 80px;
+  color: var(--primary-text-color);
+  margin: 30px 0px 0px 80px;
 }
-
 
 /* Anchor element */
 a {
-    text-decoration: none;
-    color: var(--primary-text-color);
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
-
 
 /* anchor element - when hover over Email, Linked In and GitHub, it has hovered effect */
 a:hover {
-    background-color: var(--complementing-color);
+  background-color: var(--complementing-color);
 }
-
 
 /* footer element */
 footer {
-    background: var(--primary-background-color);
-    text-align: center;
-    padding-left: 50px;
+  background: var(--primary-background-color);
+  text-align: center;
+  padding-left: 50px;
 }
-
 
 footer p {
-    color: var(--primary-text-color);
-    ;
-    font-size: 13px;
+  color: var(--primary-text-color);
+  font-size: 13px;
 }
-
 
 /* IDs */
 #about-me,
 #work,
 #work2,
 #work3,
-#skills
-{
-    padding: 100px 0px 0px 0px;
-    margin: 0px;
-    background-color: var(--primary-background-color);
+#skills {
+  padding: 100px 0px 0px 0px;
+  margin: 0px;
+  background-color: var(--primary-background-color);
 }
-
 
 /* Containers */
 .container-fluid {
-    background-color: var(--header-background-color);
-    flex-direction: column;
+  background-color: var(--header-background-color);
+  flex-direction: column;
 
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
-
 
 /* Container - with my name at top of page */
 .container-arvi {
-    background-color: var(--complementing-color);
-    color: var(--primary-text-color);
-    width: 35%;
-    /* width of bright blue background color of my name*/
+  background-color: var(--complementing-color);
+  color: var(--primary-text-color);
+  width: 35%;
+  /* width of bright blue background color of my name*/
 }
-
 
 .container {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
 
 /* Navigation Bar Related */
 
 .navbar {
-    background-color: var(--header-background-color);
-    padding-top: 0px;
+  background-color: var(--header-background-color);
+  padding-top: 0px;
 }
-
 
 .nav-item a {
-    font-size: 17px;
-    color: var(--navbar-alink-text-color);
-    font-weight: bold;
-    font-family: Arial;
+  font-size: 17px;
+  color: var(--navbar-alink-text-color);
+  font-weight: bold;
+  font-family: Arial;
 }
-
 
 .nav-item a:hover {
-    /* Below are the colours for menu items when hover over on small screen */
-    background: white;
-    color: var(--complementing-color);
+  /* Below are the colours for menu items when hover over on small screen */
+  background: white;
+  color: var(--complementing-color);
 }
-
 
 #mainNav .navbar-toggler {
-    /* "Menu" text font size and color when resized down */
-    font-size: 18px;
-    color: white;
+  /* "Menu" text font size and color when resized down */
+  font-size: 18px;
+  color: white;
 }
-
-
-
-
 
 /* Card Related */
 .cardContainer {
-    background-color: var(--primary-background-color);
-    padding: 2px;
+  background-color: var(--primary-background-color);
+  padding: 2px;
 }
-
 
 .card {
-    border-style: none; 
-    background-color: var(--primary-background-color);
+  border-style: none;
+  background-color: var(--primary-background-color);
 }
-
 
 /* Jumbotron Related */
 .jumbotron {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-
 
 /* when hover over button - it displays coloured box shadow */
 .btn-primary-hover-shadow:hover {
-    box-shadow: 0px 4px 8px var(--complementing-color);
+  box-shadow: 0px 4px 8px var(--complementing-color);
 }
 
 .image-container:hover {
-    border: 3px solid var(--complementing-color);
-    /* Set the image border color on hover */
+  border: 3px solid var(--complementing-color);
+  /* Set the image border color on hover */
 }
 
-
- #about-me, #work, #work2, #work3, #skills {
-    padding: 10px 0px 100px 0px;
-    margin: 0px;
- }
+/* Main sections of website */
+#about-me,
+#work,
+#work2,
+#work3,
+#skills {
+  padding: 10px 0px 100px 0px;
+  margin: 0px;
+}
