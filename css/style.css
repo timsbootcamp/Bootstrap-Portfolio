@@ -61,9 +61,12 @@ footer p {
 /* IDs */
 #about-me,
 #work,
-#skills,
-#contact-me {
+#work2,
+#work3,
+#skills
+{
     padding: 100px 0px 0px 0px;
+    margin: 0px;
     background-color: var(--primary-background-color);
 }
 
@@ -125,11 +128,6 @@ footer p {
 
 
 
-/* Jumbotron Related */
-.jumbotron {
-    background-color: #E3FCFD;
-    margin: 0px;
-}
 
 
 /* Card Related */
@@ -145,6 +143,12 @@ footer p {
 }
 
 
+/* Jumbotron Related */
+.jumbotron {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 /* when hover over button - it displays coloured box shadow */
 .btn-primary-hover-shadow:hover {
@@ -153,6 +157,11 @@ footer p {
 
 .image-container:hover {
     border: 3px solid var(--complementing-color);
-    /* Set the border color to yellow on hover */
+    /* Set the image border color on hover */
 }
 
+
+ #about-me, #work, #work2, #work3, #skills {
+    padding: 10px 0px 100px 0px;
+    margin: 0px;
+ }
